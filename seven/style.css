@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+body{
+width: 1024px;
+height: 768px;
+background: #FFF;
+}
+#menu{
+    width: 1516px;
+    height: 149px;
+    background: #1F1E1E;
+    color: white;
+    text-align: center;
+}
