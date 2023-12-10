@@ -7,8 +7,8 @@ formas de determinar variaveis em js
 -> const
 */
 let a, b, c;
-a = 1;
-b = 3;
+a = 29;
+b = 9;
 c = a - b;
 console.log(c);
 //como exprimir mensagem no html
@@ -29,4 +29,23 @@ total = nota1 + nota2 + nota3;
 media = total / 3;
 //alert("sua media foi igual " + media);
 resultado = media >= 3 ? "voçe está na media" : "voçe não estar na media";
-alert(resultado);
+//alert(resultado);
+
+//teste com funções
+function soma(valor1, valor2) {
+  return valor1 + valor2;
+}
+//alert(soma(10, 10));
+function alerta() {
+  alert("hello world!");
+}
+//alerta();
+const livro = {
+  autor: "frederico",
+  data: 2023,
+  nome: "mil e uma noite na babilonia",
+  informacoes: function () {
+    return "o livro tem o titulo " + this.nome + " e o autor é " + this.autor;
+  },
+};
+console.log(livro.informacoes());
