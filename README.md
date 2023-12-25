@@ -1,2 +1,2 @@
 # teste
-estudando novas linguagens
+Este repositorio é somente para armazena testes com diferentes linguagens
