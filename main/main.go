@@ -29,4 +29,12 @@ func main() {
 	var soma = 23 + 24
 
 	fmt.Println(number, number2, soma)
+
+	// numeros tipo float
+
+	var num1 = 23.4
+	var num2 = 25.9
+	var soma2 float64 = num1 + num2
+
+	fmt.Printf("Os valores foram %v e %v, e a soma %v\n", num1, num2, soma2)
 }
